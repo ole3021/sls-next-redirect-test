@@ -3,3 +3,15 @@
   [headers.values]
     Cache-Control = "public, max-age: 31536000"
 
+[[redirects]]
+  from = "/"
+  to = "https://www.serverless.com/cn/"
+  status = 302
+  force = false
+  conditions = {Country = ["CN"]}
+
+[[redirects]]
+  from = "/cn"
+  to = "https://www.serverless.com/cn/"
+  status = 302
+  force = false
